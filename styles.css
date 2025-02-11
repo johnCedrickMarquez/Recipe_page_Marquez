@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F5EDE3;
+    color: #3D2C1D;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+ }
+ .container {
+    background-color: #fff;
+    width: 50%;
+    max-width: 600px;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+ }
+ .recipe-image {
+    width: 100%;
+    border-radius: 8px;
+ }
+ h1, h2, h3 {
+    color: #5A3E2B;
+ }
+ .description {
+    font-size: 16px;
+    line-height: 1.5;
+ }
+ .prep-time {
+    background-color: #F6EFF8;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 15px 0;
+ }
+ .prep-time ul {
+    list-style-type: none;
+    padding: 0;
+ }
+ .ingredients, .instructions {
+    list-style-position: inside;
+    line-height: 1.6;
+ }
+ .nutrition-table {
+    width: 100%;
+    margin-top: 10px;
+    border-collapse: collapse;
+ }
+ .nutrition-table th, .nutrition-table td {
+    border: 1px solid #DDD;
+    padding: 8px;
+    text-align: center;
+ }
+ .nutrition-table th {
+    background-color: #F6EFF8;
+    font-weight: bold;
+ }
